@@ -72,6 +72,19 @@ The example is fully rule-based and demonstrates sequencing, branching, and loop
 * More expressive branching conditions
 * Retry and timeout handling per node
 
+## Repository Contents
+
+This repository contains:
+
+- **FastAPI project* 
+  All application code is located inside the `/app` folder and exposes APIs to create and run workflows.
+
+- **Graph Engine Implementation**  
+  The core workflow / graph execution logic is implemented in `engine.py`, supporting nodes, shared state, branching, and looping.
+
+- **Example Agent Workflow**  
+  An example rule-based agent workflow is implemented in `sample_workflow.py` along with its supporting tools in `tools.py`.  
+  This workflow demonstrates sequential execution, conditional branching, and looping.
 
 
 
