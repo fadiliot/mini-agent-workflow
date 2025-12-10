@@ -76,7 +76,7 @@ The example is fully rule-based and demonstrates sequencing, branching, and loop
 
 This repository contains:
 
-- **FastAPI project* 
+- **FastAPI project**
   All application code is located inside the `/app` folder and exposes APIs to create and run workflows.
 
 - **Graph Engine Implementation**  
